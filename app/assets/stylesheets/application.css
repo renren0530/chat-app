@@ -25,21 +25,47 @@
  .side-bar{
    width:300px;
    height:100vh;
- 
  }
 
  .side-bar-top{
    height:100px;
    background-color: #253141;
    padding:0 20px 0 20px;
-   
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
  }
+
+.name{
+   font-size:16px;
+   color:#fafafa;
+   text-decoration:none;
+   }
+
+.chatーcreate{
+  font-size:10px;
+  padding:14px;
+  color:deepskyblue;
+  border:1px lightblue solid;
+  text-decoration:none;
+
+}
 
  .side-bar-bottom{
    height:calc(100vh - 100px);
    background-color: #2f3e51;
    padding:0 20px 0 20px;
  }
+
+ .room-name{
+   color:white;
+   padding:20px 0 40px 0;
+ }
+
+ .room-name2{
+  color:white;
+  padding:0 0 40px 0;
+}
 
  .main-chat{
    width:calc(100vw - 300px);
