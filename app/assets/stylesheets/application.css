@@ -36,13 +36,13 @@
    align-items: center;
  }
 
-.name{
+.name a{
    font-size:16px;
    color:#fafafa;
    text-decoration:none;
    }
 
-.chatーcreate{
+.chatーcreate a{
   font-size:10px;
   padding:14px;
   color:deepskyblue;
@@ -107,7 +107,7 @@
    overflow: scroll;
  }
 
- .toukou{
+ .took{
   padding-bottom:40px;
  }
 
