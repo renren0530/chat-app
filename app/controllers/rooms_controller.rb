@@ -12,6 +12,9 @@ def create
     reder :new
    end
 
+   def index
+   end
+
 end
 
 def room_params
