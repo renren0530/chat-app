@@ -62,6 +62,11 @@
    padding:20px 0 40px 0;
  }
 
+ .room-name a{
+  color:white;
+  text-decoration: none;
+}
+
  .room-name2{
   color:white;
   padding:0 0 40px 0;
@@ -172,3 +177,7 @@
  .hidden{
    display:none;
  }
+
+ .field_with_errors {
+  display: contents;
+}
